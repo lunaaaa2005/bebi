@@ -90,7 +90,7 @@ h1,h2 { font-family:'Dancing Script', cursive; color:#6a1b9a; font-size:1.8rem; 
     <div class="letter-text" id="letter-text"></div>
     <div class="photo-row" id="bottom-photos"></div>
   </div>
-<audio src="song.mp3" autoplay loop></audio>
+<audio id="bgm" src="song.mp3" autoplay loop></audio>
   <script>
   document.addEventListener("click", () => {
     document.getElementById("bgm").play();
@@ -218,6 +218,7 @@ function startScene(){ updateTimers(); setInterval(updateTimers,1000);}
 </script>
 </body>
 </html>
+
 
 
 
